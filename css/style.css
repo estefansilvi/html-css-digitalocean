@@ -1,0 +1,122 @@
+/* class utility */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.display-inline-block{
+  display: inline-block;
+}
+.color-white {
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* end class utility */
+
+.navbar {
+  margin:auto;
+  padding:auto;
+}
+.bl-navbar a.navbar-brand img{
+  width: 50%;
+  margin:0;
+  padding:0;
+}
+.bl-navbar {
+  background-color: #ffffff;
+  color: #031b4e;
+}
+.bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
+  color: #031b4e;
+}
+.bl-navbar .navbar-brand {
+  font-size:20px;
+  font-weight: bolder;
+}
+.bl-navbar .navbar-nav>li>a {
+  font-weight: bolder;
+}
+.bl-navbar .navbar-brand:hover, .bl-navbar .navbar-nav>li>a:hover {
+  color: #3e8eff;
+}
+
+
+.container-fluid .jumbotron {
+  background-image: url("../img/sfondo-jumbo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+}
+.jumbotron .row p {
+  opacity: 0.8;
+}
+.jumbotron .container .row:last-of-type div {
+  border-radius: 5px;
+}
+.jumbotron .container .row h1.title-form {
+  color: #000000;
+}
+.jumbotron .container .row:last-of-type h2 {
+  color: #0160ff;
+}
+
+.bl-form ::placeholder, .bl-form input {
+  color: #2c3e50;
+  font-size: 15px;
+}
+.bl-form .form-group{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+.bl-form input {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 0;
+}
+ .bl-form .send {
+  text-align: center;
+}
+.bl-form .button-one.btn-default,
+.bl-form .button-two.btn-default {
+  width: 100%;
+  background-color:#0160ff;
+  opacity: 0.8;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.bl-form .button-two.btn-default{
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  position:relative;
+}
+.bl-form .button-two img {
+  width: 3%;
+  position:absolute;
+  left:10px;
+}
+.bl-form h5 {
+  color: #000000;
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px;) {
+ }
+/* END DA METTERE IN OGNI FILE CSS */
