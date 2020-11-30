@@ -342,7 +342,7 @@
   }
 
   @media (min-width: 768px) and (max-width: 1000px) {
- .navbar-toggle {
+  .navbar-toggle {
    display: block !important;
    position: absolute;
    right: 0px;
